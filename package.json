@@ -1,0 +1,18 @@
+{
+  "name": "website.regressioncompare",
+  "version": "1.0.0",
+  "description": "Regression testing tool to visually compare websites on different environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.12.3"
+  },
+  "dependencies": {
+    "looks-same": "^7.3.0",
+    "pixelmatch": "^5.2.1"
+  }
+}

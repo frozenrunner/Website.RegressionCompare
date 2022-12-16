@@ -1,0 +1,14 @@
+{
+    "PageIds": {
+        "123": "MTIz",
+        "456": "NDU2",
+        "789": "Nzg5"
+    },
+    "SectionSelectors": {
+        "section": ".section.one"
+    },
+    "Urls": {
+        "Old": "file:///D:/Git/Website.RegressionCompare/old.html",
+        "New": "file:///D:/Git/Website.RegressionCompare/new.html"
+    }
+}

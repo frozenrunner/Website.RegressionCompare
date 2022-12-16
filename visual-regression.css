@@ -1,0 +1,54 @@
+body {
+    background-color: #e4e4e4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 2048px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    grid-column: 1/4;
+}
+
+.result-group {
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 0 10px 0;
+}
+
+.test-run-title {
+    display: grid;
+    grid-column: 1/4;
+}
+
+.test-run-results {
+    grid-column: 1/4;
+}
+
+.test-run-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.new {
+    grid-column: 1;
+}
+
+.old {
+    grid-column: 2;
+}
+
+.diff {
+    grid-column: 3;
+}
+
+.test-result-pass {
+    color: green;
+    grid-column: 1/4;
+}
